@@ -61,13 +61,13 @@ a:hover {
   background: rgba(200,0,150,0.8);
 }
 
-.para {
-  font-size: 20px;
-  color: rgba(255,255,255,1);
-  font-size: 20px;
+.label {
+  color: white;
 }
 
 input[type=text], select, textarea {
+  color: black;
+  font-family: "ubuntu mono", monospace;
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -80,6 +80,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
+  font-family: "ubuntu mono", monospace;
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
@@ -96,8 +97,9 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background: rgba(20,60,20,0.55);
   padding: 20px;
+  margin: 20px 50px;
 }
 
 @media (max-width: 800px) {
