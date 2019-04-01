@@ -1,0 +1,104 @@
+header {
+  color: rgba(20,60,20,1);
+  margin-top: -55px;
+  size: cover;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+h1 {
+  font-family: "Bungee Inline", cursive;
+  max-width: 100%;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sub-header {
+  text-align: center;
+  font-size: 18px;
+  display: none;
+  margin-top: -58px;
+  margin-bottom: 31px;
+  color: rgba(200,0,150,1);
+}
+
+h2 {
+  margin-top: -5px;
+}
+
+span:hover + .sub-header {
+  display: block;
+}
+
+body {
+  font-family: "ubuntu mono", monospace;
+  background-image: url("https://images.unsplash.com/photo-1535025075092-5a1cf795130b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  max-width: 100%;
+  text-align: center;
+  padding: 7.5px;
+  background: rgba(20,60,20,0.55);
+}
+
+.nav li {
+  display: inline;
+  padding: 0px 25px 0px 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+a:hover {
+  background: rgba(200,0,150,0.8);
+}
+
+.para {
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .nav li {
+    padding: 0px 15px 0px 9px;
+  }
+  a {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+    padding-bottom: 7px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .nav li {
+    padding: 0px 12px 0px 7px;
+  }
+  a {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  h2 {
+    font-size: 12px;
+    padding-top: 25px;
+    margin-bottom: -17px;
+  }
+}
